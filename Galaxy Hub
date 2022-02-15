@@ -1,0 +1,377 @@
+-- Locals
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame1 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Script1 = Instance.new("TextButton")
+local Script2 = Instance.new("TextButton")
+local Script3 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local E1 = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local Exe1 = Instance.new("TextLabel")
+local E3 = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local Exe3 = Instance.new("TextLabel")
+local E2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local Exe2 = Instance.new("TextLabel")
+
+-- Frames
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.619157076, 0, 0.324659228, 0)
+Frame.Size = UDim2.new(0, 471, 0, 536)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.88246268, 0)
+TextLabel.Size = UDim2.new(0, 467, 0, 63)
+TextLabel.Font = Enum.Font.PermanentMarker
+TextLabel.Text = "Dis Comming Soon"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TextLabel
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 471, 0, 63)
+TextLabel_2.Font = Enum.Font.PermanentMarker
+TextLabel_2.Text = "Dis Comming Soon"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 20.000
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Frame
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BackgroundTransparency = 1.000
+Frame1.Position = UDim2.new(0, 0, 0.12873134, 0)
+Frame1.Size = UDim2.new(0, 201, 0, 404)
+Frame1.Image = "rbxassetid://3570695787"
+Frame1.ImageColor3 = Color3.fromRGB(58, 58, 58)
+Frame1.ScaleType = Enum.ScaleType.Slice
+Frame1.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame1.SliceScale = 0.120
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, -0.000409197441, 0)
+TextLabel_3.Size = UDim2.new(0, 471, 0, 50)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "Galaxy Hub V2 | By F4ntAsTik#9999"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_Roundify_12px_2.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_2.Parent = TextLabel_3
+TextLabel_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_2.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_2.ImageColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_4.Parent = TextLabel_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 471, 0, 50)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "Galaxy Hub | By F4ntAsTik#9999"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+Script1.Name = "Script1"
+Script1.Parent = Frame
+Script1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script1.BackgroundTransparency = 1.000
+Script1.BorderSizePixel = 0
+Script1.Position = UDim2.new(0.00212314236, 0, 0.186567158, 0)
+Script1.Size = UDim2.new(0, 200, 0, 50)
+Script1.Font = Enum.Font.Bangers
+Script1.Text = "Script #1"
+Script1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script1.TextSize = 30.000
+Script1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Script2.Name = "Script2"
+Script2.Parent = Frame
+Script2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script2.BackgroundTransparency = 1.000
+Script2.BorderSizePixel = 0
+Script2.Position = UDim2.new(0.00200000009, 0, 0.319402993, 0)
+Script2.Size = UDim2.new(0, 200, 0, 50)
+Script2.Font = Enum.Font.Bangers
+Script2.Text = "Script #2"
+Script2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script2.TextSize = 30.000
+Script2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Script3.Name = "Script3"
+Script3.Parent = Frame
+Script3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script3.BackgroundTransparency = 1.000
+Script3.BorderSizePixel = 0
+Script3.Position = UDim2.new(0.00200000009, 0, 0.451000005, 0)
+Script3.Size = UDim2.new(0, 200, 0, 50)
+Script3.Font = Enum.Font.Bangers
+Script3.Text = "Script #3"
+Script3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script3.TextSize = 30.000
+Script3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.00200003525, 0, 0.544283628, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 181)
+TextButton.Font = Enum.Font.PermanentMarker
+TextButton.Text = "Comming"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 50.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+E1.Name = "E1"
+E1.Parent = Frame
+E1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E1.BackgroundTransparency = 1.000
+E1.BorderSizePixel = 0
+E1.Position = UDim2.new(0.471337587, 0, 0.399253726, 0)
+E1.Size = UDim2.new(0, 229, 0, 97)
+E1.Font = Enum.Font.SourceSans
+E1.TextColor3 = Color3.fromRGB(0, 0, 0)
+E1.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = E1
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(57, 153, 42)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.50515461, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(0.99999994, 0, 1.48453593, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(41, 176, 17)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+Exe1.Name = "Exe1"
+Exe1.Parent = E1
+Exe1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exe1.BackgroundTransparency = 1.000
+Exe1.BorderSizePixel = 0
+Exe1.Position = UDim2.new(0, 0, 0.0742269307, 0)
+Exe1.Size = UDim2.new(0, 229, 0, 89)
+Exe1.Font = Enum.Font.SciFi
+Exe1.Text = "Execute Script #1"
+Exe1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exe1.TextSize = 20.000
+
+E3.Name = "E3"
+E3.Parent = Frame
+E3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E3.BackgroundTransparency = 1.000
+E3.BorderSizePixel = 0
+E3.Position = UDim2.new(0.471337587, 0, 0.399253726, 0)
+E3.Size = UDim2.new(0, 229, 0, 97)
+E3.Font = Enum.Font.SourceSans
+E3.TextColor3 = Color3.fromRGB(0, 0, 0)
+E3.TextSize = 14.000
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = E3
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(57, 153, 42)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.50515461, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(0.99999994, 0, 1.48453593, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(41, 176, 17)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+Exe3.Name = "Exe3"
+Exe3.Parent = E3
+Exe3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exe3.BackgroundTransparency = 1.000
+Exe3.BorderSizePixel = 0
+Exe3.Position = UDim2.new(0, 0, 0.0742269307, 0)
+Exe3.Size = UDim2.new(0, 229, 0, 89)
+Exe3.Font = Enum.Font.SciFi
+Exe3.Text = "Execute Script #3"
+Exe3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exe3.TextSize = 20.000
+
+E2.Name = "E2"
+E2.Parent = Frame
+E2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E2.BackgroundTransparency = 1.000
+E2.BorderSizePixel = 0
+E2.Position = UDim2.new(0.471337587, 0, 0.399253726, 0)
+E2.Size = UDim2.new(0, 229, 0, 97)
+E2.Font = Enum.Font.SourceSans
+E2.Text = ""
+E2.TextColor3 = Color3.fromRGB(0, 0, 0)
+E2.TextSize = 14.000
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = E2
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(57, 153, 42)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.50515461, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(0.99999994, 0, 1.48453593, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(41, 176, 17)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+Exe2.Name = "Exe2"
+Exe2.Parent = E2
+Exe2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exe2.BackgroundTransparency = 1.000
+Exe2.BorderSizePixel = 0
+Exe2.Position = UDim2.new(0, 0, 0.0742269307, 0)
+Exe2.Size = UDim2.new(0, 229, 0, 89)
+Exe2.Font = Enum.Font.SciFi
+Exe2.Text = "Execute Script #2"
+Exe2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exe2.TextSize = 20.000
+
+-- Scripts
+
+local function QBSN_fake_script() -- Script1
+	local script = Instance.new('LocalScript', Script1)
+
+	local s2 = script.Parent.Parent.E2
+	local s3 = script.Parent.Parent.E3
+	local s1 = script.Parent.Parent.E1
+	local open = false
+	
+	s1.Visible = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		s2.Visible = false
+		s3.Visible = false
+		
+		wait(1)
+		
+		if s1.Visible == false then
+			s1.Visible = true
+		else
+			s1.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(QBSN_fake_script)()
+local function DYEYOL_fake_script() -- Script2
+	local script = Instance.new('LocalScript', Script2)
+
+	local s2 = script.Parent.Parent.E2
+	local s3 = script.Parent.Parent.E3
+	local s1 = script.Parent.Parent.E1
+	local open = false
+	
+	s2.Visible = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		s3.Visible = false
+		s1.Visible = false
+	
+		wait(1)
+	
+		if s2.Visible == false then
+			s2.Visible = true
+		else
+			s2.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(DYEYOL_fake_script)()
+local function KNBYNB_fake_script() -- Script3
+	local script = Instance.new('LocalScript', Script3)
+
+	local s2 = script.Parent.Parent.E2
+	local s3 = script.Parent.Parent.E3
+	local s1 = script.Parent.Parent.E1
+	local open = false
+	
+	s3.Visible = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		s2.Visible = false
+		s1.Visible = false
+	
+		wait(1)
+	
+		if s3.Visible == false then
+			s3.Visible = true
+		else
+			s3.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(KNBYNB_fake_script)()
+
+
+E1.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+E2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
+end)
+
+E3.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/CastAways/main/Main/CastAways"))()
+end)
