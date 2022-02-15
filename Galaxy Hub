@@ -369,9 +369,9 @@ E1.MouseButton1Down:Connect(function()
 end)
 
 E2.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"")()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
 end)
 
 E3.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet(""))()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
