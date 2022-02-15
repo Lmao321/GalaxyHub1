@@ -369,9 +369,9 @@ E1.MouseButton1Down:Connect(function()
 end)
 
 E2.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
+	loadstring(game:HttpGet"")()
 end)
 
 E3.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/CastAways/main/Main/CastAways"))()
+	loadstring(game:HttpGet(""))()
 end)
