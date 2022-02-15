@@ -115,7 +115,7 @@ TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Size = UDim2.new(0, 471, 0, 50)
 TextLabel_4.Font = Enum.Font.SciFi
-TextLabel_4.Text = "Galaxy Hub | By F4ntAsTik#9999"
+TextLabel_4.Text = "Galaxy Hub V2 | By F4ntAsTik#9999"
 TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.TextSize = 14.000
 
